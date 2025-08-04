@@ -15,7 +15,7 @@ const sorteBands = bands.sort((a,b) => {
 	return nameA.localeCompare(nameB);
 })
 
-const ul = document.getElementById("band");
+const ul = document.getElementById("bands");
 ul.innerHTML = sorteBands.map(bands => `<li>${bands}</li>`).join('');
 
 
