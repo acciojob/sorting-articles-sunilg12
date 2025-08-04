@@ -1,1 +1,27 @@
-/*  your css code here. If applicable */
+
+ body {
+      font-family: sans-serif;
+      background: url('https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0?auto=format&fit=crop&w=1400&q=80');
+      background-size: cover;
+      margin: 0;
+      padding: 0;
+    }
+
+    .container {
+      width: 400px;
+      margin: 50px auto;
+      background-color: rgba(255, 255, 255, 0.9);
+      padding: 20px;
+      border-radius: 10px;
+    }
+
+    ul#band {
+      list-style-type: square;
+      padding-left: 20px;
+    }
+
+    li {
+		margin-top:10px;
+      padding: 8px 0;
+      font-size: 18px;
+    }
